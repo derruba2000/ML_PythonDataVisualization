@@ -4,6 +4,7 @@ import Exercises.exercise01 as EX01
 import Exercises.exercise02 as EX02
 import Exercises.exercise03 as EX03
 import Exercises.exercise04 as EX04
+import Exercises.exercise05 as EX05
 ######################################
 
 
@@ -22,4 +23,7 @@ else:
         EX03.RunExercise()
     if (sys.argv[1]=="4"):
         EX04.RunExercise()
+        
+    if (sys.argv[1]=="5"):
+        EX05.RunExercise()
 
